@@ -1,4 +1,4 @@
-# 🌱 Soil Fertility Predictor
+# Soil Fertility Predictor
 Predict soil fertility class based on soil nutrient values using machine learning.
 
 ## Project Overview
@@ -6,8 +6,6 @@ This project predicts the **fertility class of soil** (Low, Medium, High) based 
 The goal is to provide a simple interface for farmers, researchers, and agronomists to quickly assess soil fertility and make informed crop management decisions.
 
 The project uses a **Random Forest Classifier** trained on a soil nutrient dataset for accurate predictions.
-
----
 
 ## Features Used
 - **N** – Nitrogen content
@@ -23,8 +21,6 @@ The project uses a **Random Forest Classifier** trained on a soil nutrient datas
 - **Mn** – Manganese content
 - **B** – Boron content
 
----
-
 ## Folder Structure
 
 soil-quality-project/
@@ -38,44 +34,36 @@ soil-quality-project/
 ├── fertility_mapping.pkl # Numeric -> class name mapping
 ├── README.md # Project documentation
 
-yaml
-Copy code
-
----
-
-## How to Run
+##How to Run
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/YourUsername/soil-quality-project.git
 cd soil-quality-project
-Create a virtual environment and install dependencies:
 
-bash
-Copy code
+2. ** Create a virtual environment and install dependencies:**
+
 python -m venv venv
 venv\Scripts\activate       # Windows
 # OR
 source venv/bin/activate    # Linux/Mac
 
 pip install -r requirements.txt
-Run the Streamlit app:
+3. **Run the Streamlit app:**
 
-bash
-Copy code
 streamlit run app.py
-Use the App:
+
+4. **Use the App:**
 
 Enter soil nutrient values in the input fields.
 
-Click 🔮 Predict Fertility.
+Click  Predict Fertility.
 
 Get predictions like:
 
 vbnet
 Copy code
-✅ Predicted Soil Fertility Class: Medium Fertility 🌱
+Predicted Soil Fertility Class: Medium Fertility 
 Notes
 All .pkl model files are included and fully usable, even if GitHub cannot preview them.
 
@@ -83,20 +71,12 @@ The app handles missing values and automatically scales numeric features.
 
 Emoji icons indicate fertility levels:
 
-Low 🌵
+Low 
 
-Medium 🌱
+Medium 
 
-High 🌳
+High 
 
 Author
 Tamalika Ghosh – B.Tech ECE | Aspiring Full-Stack & Software Developer
 
-yaml
-Copy code
-
----
-
-If you want, I can also **create a `requirements.txt`** for this project so anyone can set it up with **one command**.  
-
-Do you want me to do that?
