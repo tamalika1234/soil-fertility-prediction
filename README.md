@@ -45,7 +45,6 @@ cd soil-quality-project
 
 python -m venv venv
 venv\Scripts\activate       # Windows
-# OR
 source venv/bin/activate    # Linux/Mac
 
 pip install -r requirements.txt
